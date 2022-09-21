@@ -1,0 +1,22 @@
+{
+  "details": [
+    {
+      "id": 1,
+      "text": "Meeting at School",
+      "day": "May 4th at 9:30am",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Food Shopping",
+      "day": "May 7th at 4:30pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Doctor's Appointment",
+      "day": "May 25th at 5:30pm",
+      "reminder": false
+    }
+  ]
+}

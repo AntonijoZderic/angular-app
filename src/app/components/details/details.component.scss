@@ -1,0 +1,29 @@
+.card-container {
+  display: flex;
+  width: 500px;
+}
+
+.card {
+  border: 1px solid #eee;
+  background-color: #fafafa;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+
+@media screen and (max-width: 540px) {
+  .card-container {
+    width: 100%;
+  }
+}
