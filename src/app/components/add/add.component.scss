@@ -1,0 +1,33 @@
+.form-control input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+form {
+  width: 350px;
+}
+
+.form-checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: green;
+  width: 100%;
+}
+
+@media screen and (max-width: 540px) {
+  form {
+    width: 100%;
+  }
+}

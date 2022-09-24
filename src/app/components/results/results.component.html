@@ -1,6 +1,9 @@
 <div class="content">
+  <app-add (onAddDetails)="addDetails($event)"></app-add>
   <app-details
     *ngFor="let details of results"
     [details]="details"
+    (onDeleteDetails)="deleteDetails(details)"
+    (onToggleReminder)="toggleReminder(details)"
   ></app-details>
 </div>

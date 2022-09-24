@@ -17,9 +17,17 @@
   cursor: pointer;
 }
 
+.card.reminder {
+  border-left: 5px solid green;
+}
+
 .card:hover {
   transform: translateY(-3px);
   box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+}
+
+svg:hover {
+  filter: brightness(65%);
 }
 
 @media screen and (max-width: 540px) {

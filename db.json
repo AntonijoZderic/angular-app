@@ -16,7 +16,7 @@
       "id": 3,
       "text": "Doctor's Appointment",
       "day": "May 25th at 5:30pm",
-      "reminder": false
+      "reminder": true
     }
   ]
 }

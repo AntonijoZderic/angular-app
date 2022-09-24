@@ -16,4 +16,19 @@ export class ResultsComponent implements OnInit {
     this.httpService.getDetails().subscribe((results) => (this.results = results));
   }
 
+  deleteDetails(details: Details) {
+    this.httpService
+    .deleteDetails(details)
+    .subscribe(() => (this.results = this.results.filter(r => r.id !== details.id)));
+  }
+
+  toggleReminder(details: Details) {
+    details.reminder = !details.reminder;
+    this.httpService.updateReminder(details).subscribe();
+  }
+
+  addDetails(details: Details) {
+    this.httpService.addDetails(details).subscribe((details) => (this.results.push(details)));
+  }
+
 }
